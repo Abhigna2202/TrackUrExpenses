@@ -1,0 +1,3 @@
+# TrackUrExpenses
+
+This facilitates the user to note their daily expenses. To use this mobile app, a user needs to register into the application first. Once registered, he can log in and use the app. This app has a facility to add the user’s expenses in two ways. One is through the user interface developed for manual entry and the other is through the user interface that captures the image of the receipt and scans the text in the image and then uploads it in the expenses list. This application also facilitates the user in checking his past or history expenses. The user can also search the item from the history to check which store offered less price.
