@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "281038401601",
+    "firebase_url": "https://trackurexpenses.firebaseio.com",
+    "project_id": "trackurexpenses",
+    "storage_bucket": "trackurexpenses.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281038401601:android:bf691e9631d032593756c0",
+        "android_client_info": {
+          "package_name": "com.example.android.trackurexpenses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281038401601-de2ohqrh78dd4n0c2r7ri54f993dqmjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhqM3CdmSTheUP0z0ljAIQ2pyziDEBvm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281038401601-de2ohqrh78dd4n0c2r7ri54f993dqmjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

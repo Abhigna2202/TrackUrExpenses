@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome_screen_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/australian_budget_superannuation_money"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/manual_entry_button_home2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_corners"
+        android:padding="16sp"
+        android:text="@string/enter_expense_manually"
+        app:layout_constraintEnd_toEndOf="@+id/upload_receipt_button_home"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="@+id/upload_receipt_button_home"
+        app:layout_constraintTop_toBottomOf="@+id/upload_receipt_button_home" />
+
+    <Button
+        android:id="@+id/upload_receipt_button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_corners"
+        android:padding="16sp"
+        android:text="@string/upload_your_receipt"
+        app:layout_constraintEnd_toEndOf="@+id/welcome_textView"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/welcome_textView"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_textView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/best_store_button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round_corners"
+        android:padding="16sp"
+        android:text="@string/know_your_best_store_from_history"
+        app:layout_constraintEnd_toEndOf="@+id/expense_history_button_home"
+        app:layout_constraintStart_toStartOf="@+id/expense_history_button_home"
+        app:layout_constraintTop_toBottomOf="@+id/expense_history_button_home" />
+
+    <TextView
+        android:id="@+id/welcome_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="32dp"
+        android:padding="16sp"
+        android:text="@string/Home_screen"
+        android:textColor="#0E0E0E"
+        android:textColorHighlight="#0E0E0E"
+        android:fontFamily="@font/amarante"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/upload_receipt_button_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/expense_history_button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round_corners"
+        android:padding="16sp"
+        android:text="@string/know_your_expense_history"
+        app:layout_constraintEnd_toEndOf="@+id/manual_entry_button_home2"
+        app:layout_constraintStart_toStartOf="@+id/manual_entry_button_home2"
+        app:layout_constraintTop_toBottomOf="@+id/manual_entry_button_home2" />
+
+    <Button
+        android:id="@+id/signout_button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round_corners"
+        android:padding="16sp"
+        android:text="Log Out"
+        app:layout_constraintEnd_toEndOf="@+id/best_store_button_home"
+        app:layout_constraintStart_toStartOf="@+id/best_store_button_home"
+        app:layout_constraintTop_toBottomOf="@+id/best_store_button_home" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
